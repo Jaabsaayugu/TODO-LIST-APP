@@ -1,0 +1,130 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "inherit", sans-serif;
+  background-color: rgb(248, 242, 223);
+  padding:  4rem;
+  font-size: 1.6rem;
+}
+
+.title{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+form {
+  display: flex;
+  gap: 4rem;
+  margin: 2rem auto;
+  outline: none;
+  border-radius: 2rem;
+}
+
+.form-input{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.6rem;
+  padding: 1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+}
+form button{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.6rem;
+  padding-inline: 2rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.task-container{
+  display: grid;
+  margin: auto;
+  margin-left: 10rem;
+}
+
+.task-count{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2.6rem;
+  padding: 2rem 3rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: black;
+  border: none;
+  border-radius: 0.5rem;
+   margin-left: 17rem;
+}
+
+.task-delete{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.6rem;
+  padding: 2rem 3rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+  margin-left: 20rem;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.task-list{
+  display: flex;
+  gap: 22rem;
+  outline: none;
+  border-radius: 20px ;
+  padding-bottom: 13px;
+}
+
+.task-list > *{
+  width: auto;
+}
+
+.task-list-container
+{
+  margin: auto;
+  width: 87rem;
+  
+}
+.task-description{ 
+width: 21.5rem;
+margin-left: -17.8rem;
+overflow-wrap: break-word;
+}
+
+.task-time
+{
+width: 21.5rem;
+margin-left: -18rem;
+overflow-wrap: break-word;
+
+}
+
+.task-title
+{
+font-size: 2rem;
+width: 21.5rem;
+overflow-wrap: break-word;
+}
