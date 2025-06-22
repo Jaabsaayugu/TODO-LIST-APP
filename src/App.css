@@ -17,6 +17,12 @@ body {
   font-size: 1.6rem;
 }
 
+#app {
+  max-width: 100%;
+  margin: auto;
+}
+
+
 .title{
   text-align: center;
   text-transform: uppercase;
@@ -25,7 +31,7 @@ body {
 form {
   display: flex;
   gap: 4rem;
-  margin: 2rem auto;
+  margin:  auto;
   outline: none;
   border-radius: 2rem;
 }
@@ -51,6 +57,26 @@ form button{
   color: white;
   border: none;
   border-radius: 0.5rem;
+}
+
+@media only screen and (max-width: 905px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 60rem;
+    align-items: center;
+  }
+   .form-input,
+  form button {
+    width: 80%;
+    font-size: 1.4rem;
+  
+}
+  form button{
+    width: auto;
+    padding: 1rem 2rem;
+  }
 }
 
 .task-container{
@@ -93,6 +119,8 @@ form button{
 .task-list{
   display: flex;
   gap: 22rem;
+  padding: 2rem 0;
+  /* text-transform: ; */
   outline: none;
   border-radius: 20px ;
   padding-bottom: 13px;
